@@ -1,3 +1,0 @@
-index.txt commit
-commit and push
-modify
