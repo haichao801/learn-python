@@ -9,7 +9,7 @@ age:            %s
 job:            %s
 town:           %s
 -------------end------------------------
-'''%(name, name, age, job, town)
+''' % (name, name, age, job, town)
 
 print(info)
 

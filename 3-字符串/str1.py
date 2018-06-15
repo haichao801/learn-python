@@ -22,16 +22,16 @@
 # sport2 = "足球"
 # print(myfavorit + sport1 + "----" + sport2)
 
-# # 字符串索引和切片
-# hello = "刘总你好啊"
-# print(hello[2:4])
-# print(hello[-3:-1])
-
-# # 省略一个切片索引
-# hello = "刘总你好啊"
-# print(hello[2:])
-# print(hello[:2])
-
-# 字符串长度
+# 字符串索引和切片
 hello = "刘总你好啊"
-print(len(hello))
+print(hello[2:4])
+print(hello[-3:-1])
+
+# 省略一个切片索引
+hello = "刘总你好啊"
+print(hello[2:])
+print(hello[:2])
+
+# # 字符串长度
+# hello = "刘总你好啊"
+# print(len(hello))
