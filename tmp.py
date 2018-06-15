@@ -1,2 +1,7 @@
-message = "你好，欢迎到来"
-print("小李" + message)
+str = "How are you"
+l = str.split(' ')
+print(l)
+for s in l[::-1]:
+    print(s, end=' ')
+
+
