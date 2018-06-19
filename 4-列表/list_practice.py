@@ -30,14 +30,4 @@ print(names)
 # # 9.取出names列表中最后3个元素
 # print(names[-3:])
 
-# # 10.循环names列表，打印每个元素的索引值，和元素
-# for i in names:
-#     print(names.index(i), i)
-
-# 11.循环names列表，打印每个元素的索引值，和元素，当索引值 为偶数时，把对应的元素改成-1
-for i in names:
-    print(names.index(i), i)
-    if names.index(i) % 2 == 0:
-        names[names.index(i)] = -1
-print(names)
 
