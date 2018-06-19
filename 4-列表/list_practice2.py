@@ -53,7 +53,7 @@ while not exit_flag:
     print('------商品列表------')
     for index, p in enumerate(products):
         print('%s. %s   %s' % (index, p[0], p[1]))
-    choice = input('输入想买的商品编号：')
+    choice = input('\n输入想买的商品编号：')
     if choice.isdigit():
         choice = int(choice)
         if choice >= 0 and choice < len(products):
