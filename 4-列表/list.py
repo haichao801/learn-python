@@ -29,7 +29,7 @@ print('L=', L)
 #
 # L[3] = 'boy' # 修改索引为3的元素为'boy'
 # print(L)
-# L[4:6] = 'haichao'  # 把索引4-6的元素修改为'haichao'，不够的元素自动增加
+# L[4:6] = 'xiaobai'  # 把索引4-6的元素修改为'haichao'，不够的元素自动增加
 # print(L)
 
 # # 删除列表元素或整个列表
@@ -38,7 +38,7 @@ print('L=', L)
 # pop3 = L.pop(3)  # 删除索引为3的元素
 # print('pop3, ', pop3)  # pop方法可以取到被删除的值
 # print(L)
-# L.remove('h')  # 不知道元素的索引时，根据元素的值删除，删除从左到右找到的第一个元素
+# L.remove('e')  # 不知道元素的索引时，根据元素的值删除，删除从左到右找到的第一个元素
 # print(L)
 # del L[3]  # 用python全局的删除方法删除指定位置的元素
 # print(L)
@@ -62,12 +62,12 @@ print('L=', L)
 # L2.reverse()  # 反序
 # print(L2)
 
-# # 列表其他方法
-# Lcopy = L.copy()  # 复制列表
-# print(Lcopy)
-# L.extend([1, 2, 3, ])  # 扩展列表
-# print(L)
-# L.clear()  # 清空列表
-# print(L)
+# 列表其他方法
+Lcopy = L.copy()  # 复制列表
+print(Lcopy)
+L.extend([1, 2, 3, ])  # 扩展列表
+print(L)
+L.clear()  # 清空列表
+print(L)
 
 
