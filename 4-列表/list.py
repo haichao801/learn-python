@@ -62,12 +62,12 @@ print('L=', L)
 # L2.reverse()  # 反序
 # print(L2)
 
-# 列表其他方法
-Lcopy = L.copy()  # 复制列表
-print(Lcopy)
-L.extend([1, 2, 3, ])  # 扩展列表
-print(L)
-L.clear()  # 清空列表
-print(L)
+# # 列表其他方法
+# Lcopy = L.copy()  # 复制列表
+# print(Lcopy)
+# L.extend([1, 2, 3, ])  # 扩展列表
+# print(L)
+# L.clear()  # 清空列表
+# print(L)
 
 
