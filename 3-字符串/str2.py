@@ -1,20 +1,20 @@
-# # 1.s.swapcase，大写变小写，小写变大写
-# """
-#        S.swapcase() -> str
-#        Return a copy of S with uppercase characters converted to lowercase
-#        and vice versa.
-# """
-# s = 'Hello World!'
-# print(s.swapcase())
+# 1.s.swapcase，大写变小写，小写变大写
+"""
+       S.swapcase() -> str
+       Return a copy of S with uppercase characters converted to lowercase
+       and vice versa.
+"""
+s = 'Hello World!'
+print(s.swapcase())
 
 # # 2.S.capitalize()，返回一个首字母大写，其它小写的字符串
-# """
-#        S.capitalize() -> str
-#        Return a capitalized version of S, i.e. make the first character
-#        have upper case and the rest lower case.
-# """
-# s = 'Hello World!'
-# print(s.capitalize())
+# # """
+# #        S.capitalize() -> str
+# #        Return a capitalized version of S, i.e. make the first character
+# #        have upper case and the rest lower case.
+# # """
+# # s = 'Hello World!'
+# # print(s.capitalize())
 
 # # 3.S.casefold()，把大小写去掉，统一的变成小写，便于比较
 # """
@@ -70,7 +70,7 @@
 # print(s.find('o', 0, 3))
 # print(s.find('o', 0, 5))
 
-# # 8.S.format(*args, **kwargs) -> str，查找字符的索引，找不到就返回-1,也可以从指定位置查找
+# # 8.S.format(*args, **kwargs) -> str，字符串格式化
 # """
 #         S.format(*args, **kwargs) -> str
 #         Return a formatted version of S, using substitutions from args and kwargs.
@@ -83,7 +83,7 @@
 # s2 = 'my name is {name}, i am {age} years old'
 # print(s2.format(name='lhc', age=22))
 
-# # 9.S.index(sub[, start[, end]]) -> int 查找指定字符的索引，找不到报错，可以指定查找的范围。与s.find类似
+# # 9.S.index(sub[, start[, end]]) -> int 查找指定字符的索引，找不到报错，可以指定查找的范围。与s.find类似，一般用find
 # """
 #         S.index(sub[, start[, end]]) -> int
 #
@@ -107,26 +107,26 @@
 # print('22d!'.isalnum())
 
 # # 11.S.isalpha() -> bool 判断字符串中字符是否都是阿拉伯字母，不包含数字和特殊符号
-# # """
-# #         S.index(sub[, start[, end]]) -> int
-# #
-# #         Return the lowest index in S where substring sub is found,
-# #         such that sub is contained within S[start:end].  Optional
-# #         arguments start and end are interpreted as in slice notation.
-# #         Raises ValueError when the substring is not found.
-# # """
-# # print('222'.isalpha())
-# # print('abc'.isalpha())
+# """
+#         S.index(sub[, start[, end]]) -> int
+#
+#         Return the lowest index in S where substring sub is found,
+#         such that sub is contained within S[start:end].  Optional
+#         arguments start and end are interpreted as in slice notation.
+#         Raises ValueError when the substring is not found.
+# """
+# print('222'.isalpha())
+# print('abc'.isalpha())
 
 # # 12. S.isdigit() -> bool 判断字符串中字符是否都是数字
-# # """
-# #        S.isdigit() -> bool
-# #
-# #         Return True if all characters in S are digits
-# #         and there is at least one character in S, False otherwise.
-# # """
-# # print('2234'.isdigit())
-# # print('abc'.isdigit())
+# """
+#        S.isdigit() -> bool
+#
+#         Return True if all characters in S are digits
+#         and there is at least one character in S, False otherwise.
+# """
+# print('2234'.isdigit())
+# print('abc'.isdigit())
 
 # # 13. S.islower() -> bool 判断字符串中字符是否都是小写
 # """
