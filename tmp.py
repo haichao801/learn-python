@@ -126,9 +126,9 @@
 #         a.remove(i)
 # print(a)
 
-y = [1, 2, 3, 4]
-for idx, value in enumerate(y):
-    if value == 'a':
-        break
-
-print(idx)
+# y = [1, 2, 3, 4]
+# for idx, value in enumerate(y):
+#     if value == 'a':
+#         break
+#
+# print(idx)
