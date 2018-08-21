@@ -13,6 +13,11 @@
 #     s = '* ' * i
 #     print(s)
 
+for i in range(0, 6):
+    for j in range(0, 6-i):
+        print(' ', end="")
+    s = '* ' * i
+    print(s)
 
 # li = [1, 2, 3, 4, 5]
 # new_li = []
