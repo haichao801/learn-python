@@ -2,3 +2,9 @@
 name = input("what is your name?")
 print("hello " + name)
 
+# input返回的是字符串
+x = input('x:')
+y = input('y:')
+print(int(x)+int(y))
+
+
