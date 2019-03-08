@@ -16,4 +16,9 @@ message = "你好，欢迎到来"
 print("小李", message)
 
 
-
+# 换行显示
+print('this is very long example. Now is better than never. Although never is often better than "right now". Beautiful is better than ugiy.')
+print('this is very long example. '
+      'Now is better than never. Although never is often better than "right now". Beautiful is better than ugiy.')
+print('this is very long example. \
+Now is better than never. Although never is often better than "right now". Beautiful is better than ugiy.')
